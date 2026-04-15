@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Gửi Người Anh Thương ❤️</title>
+    <title>Gia Kỳ ❤️</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@700&display=swap" rel="stylesheet">
     <style>
         :root { 
@@ -95,7 +95,7 @@
     <section id="page1" class="active">
         <h2 id="type1" class="typing" style="font-family: 'Dancing Script', cursive; font-size: 2.5em; color: white;"></h2>
         <div style="margin-top: 20px;">
-            <input type="password" id="password" maxlength="4" placeholder="Nhập mã 1604..." 
+            <input type="password" id="password" maxlength="4" placeholder="Em hãy nhập mật khẩu" 
                 style="padding:15px; border-radius:15px; border:none; text-align:center; font-size: 1.2em; width: 220px;">
         </div>
     </section>
@@ -136,7 +136,7 @@
     <section id="page4">
         <div style="color:white; z-index:100; position: relative;">
             <h1 id="type4" style="font-family: 'Dancing Script', cursive; font-size: 2.5em; text-shadow: 0 5px 15px rgba(0,0,0,0.5);"></h1>
-            <p style="font-size: 1.2em;">Mãi bên nhau nhé ❤️</p>
+            <p style="font-size: 1.2em;">Mãi yêuuu ❤️</p>
         </div>
         <div id="star-field"></div>
     </section>
@@ -154,7 +154,7 @@
             type();
         }
 
-        window.onload = () => { typeWriter("type1", "Lối vào trái tim..."); };
+        window.onload = () => { typeWriter("type1", "Điều anh muốn nói..."); };
 
         document.getElementById('password').oninput = function() {
             if(this.value === "1604") { playMusic(); nextPage(2); }
@@ -166,7 +166,7 @@
             document.getElementById('page'+n).classList.add('active');
             if(n === 2) setTimeout(() => typeWriter("type2", "Chào em..."), 300);
             if(n === 3) setTimeout(() => typeWriter("type3", "Happy Birthday!"), 300);
-            if(n === 4) { setTimeout(() => typeWriter("type4", "Ngủ ngon nhé bé yêu!"), 300); initGalaxy(); }
+            if(n === 4) { setTimeout(() => typeWriter("type4", "Chúc yêuu của anh ngủ ngoann!"), 300); initGalaxy(); }
         }
 
         function openEnv() {
@@ -207,11 +207,11 @@
                 field.appendChild(s);
             }
             const items = [
-                {type:'img', val:'anh1.jpeg'}, {type:'text', val:'Em là duy nhất'},
-                {type:'img', val:'anh2.jpeg'}, {type:'text', val:'Thương em lắm'},
-                {type:'img', val:'anh3.jpeg'}, {type:'text', val:'Xinh đẹp nhất'},
-                {type:'img', val:'anh4.jpeg'}, {type:'text', val:'I Love You'},
-                {type:'img', val:'anh12.jpeg'}, {type:'text', val:'Bé yêu'}
+                {type:'img', val:'anh1.jpeg'}, {type:'text', val:'cục cưngg'},
+                {type:'img', val:'anh2.jpeg'}, {type:'text', val:'hjhjhj'},
+                {type:'img', val:'anh3.jpeg'}, {type:'text', val:'xinh iuu'},
+                {type:'img', val:'anh4.jpeg'}, {type:'text', val:'lớp duuu'},
+                {type:'img', val:'anh12.jpeg'}, {type:'text', val:'bé iuu'}
             ];
             items.forEach((item, i) => {
                 const container = document.createElement('div');
